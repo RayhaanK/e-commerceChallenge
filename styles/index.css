@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-image: url("https://i.postimg.cc/m2Mm8bPN/geoffrey-moffett-TFRezw7p-Qw-I-unsplash.jpg"); 
+    background-size: cover;
+    height: 100vh;
+}
+
+img[alt='Logo']{
+    width: 10rem;
+}
+
+.nav-link {
+    color: #E1D9D1  !important;
+    border-bottom: 1px solid #E1D9D1;
+}
+
+.nav-link:hover {
+    color: #f5f5f5 !important;
+}
+
+.hamburger {
+    color: #E1D9D1;
+    background-color: #E1D9D1 !important;
+}
+
+.container {
+    margin-top: 10rem;
+}
+
+.titleHome {
+    font-weight: 600;
+}
+
+#featuredPost {
+    background-color: #0C0C0F;
+}
+
+.display-5 {
+    font-size: 2rem !important;
+}
+
+.card {
+    background-color: #1F1F29 ;
+    height: fit-content;
+    max-width: 350px;
+}
+
+.titleC {
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cpic {
+  max-height: 25rem !important;
+  max-width: 24.68rem;
+  background-size: cover !important;
+}
+
+.descC {
+    height: 13rem;
+    overflow: auto;
+    outline: 2px solid #0C0C0F;
+}
+
+.featbtn {
+    padding: 0.3rem;
+}
+
+.featbtn:hover {
+box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+  transition: 0.2s;
+  transform: scale(1);
+}
+
+
+@media screen and (max-width:1200px){
+    .display-5 {
+      font-size: 1.5rem !important;
+    }
+  }
+  
+
+@media screen and (max-width:576px){
+    .col {
+      display: flex;
+      justify-content: center !important;
+    }
+  
+  }
