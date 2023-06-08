@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0C0C0F;
+}
+
+img[alt='Logo']{
+    width: 10rem;
+}
+
+.navbar {
+    background-color: #0c0c0c !important;
+}
+
+
+.nav-link {
+    color: #E1D9D1  !important;
+    border-bottom: 1px solid #E1D9D1;
+}
+
+.nav-link:hover {
+    color: #f5f5f5 !important;
+}
+
+.hamburger {
+    color: #E1D9D1 !important;
+    background-color: #E1D9D1 !important;
+}
+
+.adminImg {
+    height: 290px;
+}
